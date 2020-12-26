@@ -115,7 +115,7 @@ action:
             brightness_step_pct: 10
             transition: 1
           target: !input 'light_1'
-        - delay: '1'
+        - delay: '0.5'
   - conditions:
     - '{{ command == ''button_1_triple'' }}'
     sequence: !input 'button_1_triple'
